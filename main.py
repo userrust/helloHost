@@ -9,7 +9,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 async def read_root():
-    return {"message": "Добро пожаловать в FastBank API!11"}
+    return {"message": "Добро пожаловать в FastBank API!"}
 
 
 @app.post("/api")
